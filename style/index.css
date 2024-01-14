@@ -1,0 +1,38 @@
+.container {
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  float: right;
+}
+
+.content > a {
+  margin-right: 50px;
+  padding: 10px 0px;
+}
+
+.content > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+#contain {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+}
+.count {
+  cursor: pointer;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+.refresh {
+  border: 2px solid #000000;
+  margin: 20px;
+}

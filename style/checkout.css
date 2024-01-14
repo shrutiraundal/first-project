@@ -1,0 +1,10 @@
+input {
+  margin-bottom: 20px;
+}
+button {
+  border: transparent;
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: rgb(160, 89, 8);
+  border-radius: 10px;
+}
